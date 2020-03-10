@@ -1,0 +1,16 @@
+.botoes_inicial{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.div_around_buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-repos{
+    font-weight: 600;
+    color: #263238;
+}
