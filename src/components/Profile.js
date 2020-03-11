@@ -16,6 +16,7 @@ export default function Repos({ nameUser }) {
 				setKeys(Keys(reposData.data));
 			} catch (error) {
 				Popup.exibeMensagem('error', 'Erro usário não encontrado');
+				console.log(error);
 			}
 		}
 
